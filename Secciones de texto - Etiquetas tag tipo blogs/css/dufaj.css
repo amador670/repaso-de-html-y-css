@@ -1,0 +1,37 @@
+* {
+    -moz-box-sizing: content-box; /* or `border-box` */
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+html {
+  height: 100%;
+  font-size: 62.5% /* $rembase */
+}
+body,
+input {
+  font-family: source-sans-pro, sans-serif;
+}
+body {
+  color: #666;
+  font-size: 1.5rem; /* 10 ÷ $rembase = 15px*/
+}
+.placeholder {
+  position: absolute;
+  top: 0;
+  padding: 1rem;
+  height: 100%;
+}
+.placeholder.dark {
+  left: 0;
+  right: 50%;
+  background: #484B4C;
+}
+.placeholder.light {
+  left: 50%;
+  right: 0;
+  background: #DFE2E2;
+}
+:focus {
+  border: 1px solid #0036FF;
+  box-shadow: 0 0 0 2px #6fb5f1;
+}

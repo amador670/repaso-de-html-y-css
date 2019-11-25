@@ -1,0 +1,152 @@
+@import url('http://fonts.googleapis.com/css?family=Lobster+Two');
+  
+*{
+  box-sizing: border-box;
+
+}
+html{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background: url('http://s.cdpn.io/45816/noisy-bg.png')#7f8c8d;
+}
+h1{
+  text-align: center;
+  font-size: 48pt;
+  font-family: 'Lobster Two', cursive;
+  margin-top: 75px;
+  color: #fff;
+  text-shadow: -1px 1px 0px #000;
+}
+.container{
+  font-family: Arial;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  box-lines: multiple;
+}
+.box{
+  width: 250px;
+  height: 200px;
+  background: url('http://placekitten.com/250/200');
+  overflow: hidden;
+  margin: 5px;
+  border: 1px solid #000;
+  box-shadow: 0px 0px 15px 0px #666,
+              0px 5px 15px 0px #000;
+}
+.cover{
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.45);
+  position: relative;
+  -webkit-transition: all 0.4s cubic-bezier(.99,.99,0,.61);
+  padding: 1em;
+  color: #fff;
+  overflow: hidden;
+  text-shadow: 1px 1px 0px #000;
+}
+.cover .title{
+  font-size: 16pt;
+  font-style: italic;
+}
+.box .cover .intro{
+  line-height: 1.2em;
+  height: 4.8em;
+  width: 100%;
+  position: relative;
+  font-size: 10pt;
+  overflow: hidden;
+}
+.cover .btn{
+  padding: 0.5em 1em;
+  margin: 0.5em;
+  background: #0099cc;
+  float: right;
+  border-radius: 0.25em;
+}
+.btn a{
+  color: #fff;
+  text-decoration: none;
+}
+.cover .date{
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+  font-size: 10pt;
+}
+.box:hover .left{
+  -webkit-transition: all 0.4s cubic-bezier(.99,.99,0,.61);
+   left: 0px;
+}
+.box:hover .right{
+  -webkit-transition: all 0.4s cubic-bezier(.99,.99,0,.61);
+   right: 0px;
+}
+.box:hover .top{
+  -webkit-transition: all 0.4s cubic-bezier(.99,.99,0,.61);
+   top: 0px;
+}
+.box:hover .bottom{
+  -webkit-transition: all 0.4s cubic-bezier(.99,.99,0,.61);
+    bottom: 0px;
+}
+.box:hover .top-left{
+  -webkit-transition: all 0.4s cubic-bezier(.99,.99,0,.61);
+    top: 0px;
+    left: 0px;
+}
+.box:hover .top-right{
+  -webkit-transition: all 0.4s cubic-bezier(.99,.99,0,.61);
+    top: 0px;
+    right: 0px;
+}
+.box:hover .bottom-left{
+  -webkit-transition: all 0.4s cubic-bezier(.99,.99,0,.61);
+    bottom: 0px;
+    left: 0px;
+}
+.box:hover .bottom-right{
+  -webkit-transition: all 0.4s cubic-bezier(.99,.99,0,.61);
+    bottom: 0px;
+    right: 0px;
+}
+.left{
+  left: -250px;
+}
+.right{
+  right: -250px;
+}
+.top{
+  top: -200px;
+}
+.bottom{
+  bottom: -200px;
+}
+.top-left{
+  top: -200px;
+  left: -250px;
+}
+.top-right{
+  top: -200px;
+  right: -250px;
+}
+.bottom-left{
+  bottom: -200px;
+  left: -250px;
+}
+.bottom-right{
+  bottom: -200px;
+  right: -250px;
+}
+/* Ordering */
+  .left{order:1;}
+  .right{order:2;}
+  .top{order:3;}
+  .bottom{order:4;}
+  .top-left{order:5;}
+  .top-right{order:6;}
+  .bottom-left{order:7;}
+  .bottom-right{order:8;}
+

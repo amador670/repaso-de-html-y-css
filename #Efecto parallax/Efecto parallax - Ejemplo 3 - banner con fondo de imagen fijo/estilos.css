@@ -1,0 +1,43 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body { 
+  background-image: url(img1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: comic sans ms;
+  margin: 50px;
+}
+
+#contenido{
+  margin: 50px 0px;
+  padding: 50px;
+  color: black;
+  background-color: rgba(0, 0, 0, 0.32);
+  font-size: 20px;
+  text-align: left;
+  color: white;
+}
+
+.bannerParallax{
+  background-image: url(img2.jpg);
+  clear: both;
+  width: 100%;  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bannerParallax h3{
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 100px 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  
+}

@@ -1,0 +1,171 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body { 
+  margin: 50px;
+}
+
+.contenido{
+  margin: 20px 0px;
+  padding: 50px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.32);
+  font-size: 20px;
+  text-align: left; 
+}
+
+/*TABLA - CSS*/
+
+.tabla{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;  
+  vertical-align:top;
+  display:inline-block;
+}
+
+.tablax4{
+  transform: translateX(50%) translateY(50%;);
+  float: left;
+  width: 300px;
+  max-width:100%;
+  min-height:250px;
+  margin:10px 5px 5px 0px;
+  vertical-align:top;
+  display:inline-block;
+}
+
+.tablaGrande{
+  transform: translateX(50%) translateY(50%;);
+  float: left;
+  width: 300px;
+  max-width:100%;
+  min-height:250px;
+  margin:5px 5px 5px 0px;
+  vertical-align:top;
+  display:inline-block;
+}
+
+.tabla-precio{
+  border: 2px solid #00c4ff;
+  background: #30353c;
+  color: aliceblue;
+}
+
+.tabla-precio h2{
+  font-family: sans-serif;
+}
+
+.iconoTabla{
+  color: #eaeaea;
+  padding-top: 20px;
+  font-size: 2em;
+  padding-bottom: 10px;
+}
+
+.precioUno{
+  color: #00c4ff;
+  font-size: 50px;
+}
+
+.dolar{
+  font-size: 20px;
+  color: #00c4ff;
+  vertical-align: super; /*permite colocar el caracter arriba, es decir permite subir el caracter*/
+}
+
+.mensuales{
+  font-size: 20px;
+  color: aliceblue;
+  vertical-align: text-bottom; /*permite añadir el caracter en la parte inferior*/
+}
+
+.lista-precios{
+  list-style: none;
+  color: #c4c4c4;
+  padding: 20px 0;  
+  padding-bottom: 50px
+}
+
+.lista-espacios{
+  padding: 0.25em;
+  font-size: 15px;
+}
+
+.boton-contratar{
+  margin-bottom: 50px;
+}
+
+.contratar-a{
+  width: 90%;
+  padding: 10px 30px;
+  border-radius: 2px;
+  background: #00c4ff;
+  color: white;
+  font-size: 1em;
+  font-family: comic sans ms;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.contratar-a:hover{
+  background: aliceblue;
+  color: #00c4ff;
+}
+
+.destacado{
+  background: #3e4c5d;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
+  z-index: 500;
+}
+
+.destacado h2{
+  color:aliceblue;
+  font-size: 30px;
+}
+
+.destacado .iconoTabla{
+  font-size: 3em;
+}
+
+.destacado .contratar-a{
+  background: #01ebd0;
+}
+
+.contratar-a:hover{
+  background: aliceblue;
+  color: #01ebd0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

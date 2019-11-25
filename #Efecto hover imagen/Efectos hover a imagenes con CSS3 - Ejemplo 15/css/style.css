@@ -1,0 +1,22 @@
+.galeria li {
+  position: relative;
+}
+.galeria li .imagen-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 120px;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+  background-image: url(http://jzmusic.cl/stage/_/imgs/zoom.png);
+  background-position: center center;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}
+.galeria li:hover .imagen-hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}

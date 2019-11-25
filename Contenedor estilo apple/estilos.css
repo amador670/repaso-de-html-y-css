@@ -1,0 +1,84 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: helvetica;
+	color:#333;
+	background: #f1f2f5;
+	margin: 20px;
+}
+
+.titulo{
+	margin: auto;
+	margin-top: 70px;
+	width: 100%;
+	max-width: 960px;
+	font-size: 26px;
+}
+
+.bodyApple{
+	margin: auto;
+	margin-top: 10px;
+	width: 100%;
+	max-width: 960px;
+	min-height: 180px;
+	border-radius: 10px;
+	box-shadow: 0px 2px 4px #b4b4b4; 
+
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(243,243,243,1) 50%, rgba(237,237,237,1) 51%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.bodyApple{
+	padding: 10px;
+	text-align: left;
+}
+
+.bodyApple img{
+	width: 100%;
+	max-width: 150px;
+	padding: 5px;
+	padding-right: 10px;
+	float: left;
+}
+
+.tituloApple{
+	font-size: 24px;
+	padding-top: 20px;
+}
+
+.parrafoApple{
+	padding-top: 15px;
+}
+
+.masInformacionApple{
+	padding-top: 15px;
+	text-align: right;
+}
+
+.bodyApple a{
+	text-decoration: none;
+	color: #298cda;
+}
+
+.bodyApple a:hover{
+	text-decoration: underline;
+}
+
+@media screen and (max-width:390px){
+	.bodyApple img{
+		width: 160px;
+		max-width: 160px;
+		padding: 5px;
+		float: none;
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+	}
+}

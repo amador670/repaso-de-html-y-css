@@ -1,0 +1,24 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body { 
+	font-size: 20px;
+	margin: 50px;
+	font-family: comic sans ms;
+	text-align: center;
+}
+
+h2{
+	margin-bottom: 50px;
+}
+
+.contenedor img{
+	display: inline-block;
+	width:  100%; 
+	max-width: 370px;
+	height: 100%;
+}
+

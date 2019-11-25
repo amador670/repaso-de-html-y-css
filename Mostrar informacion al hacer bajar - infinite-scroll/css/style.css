@@ -1,0 +1,40 @@
+body {
+ font-family: sans-serif;
+ color: #2a2a2a;
+ line-height: 1.4;
+ font-size: 18px;
+ padding: 20px;
+ width: 100%;
+ max-width: 1200px;
+ margin: 0 auto;
+}
+
+.post {
+ border-top: 1px solid #DDD;
+ margin: 60px 0;
+}
+
+.post img {
+ display: block;
+ width: 50%;
+ height: 100%;
+ max-height: 300px;
+ margin: 0 auto;
+}
+
+.page-load-status {
+ display: none; /* hidden by default */
+ text-align: center;
+ color: #585858;
+}
+
+button {
+ font-size: 15px; 
+ padding: 5px 15px;
+ text-align: center;
+ margin: 0 auto;
+ background-color: #F8F8F8;
+ background-image: linear-gradient( hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.1) );
+ border: 1px solid #CCC;
+ border-radius: 5px;
+}

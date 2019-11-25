@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Image Hover Effects with CSS3 transform</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <!-- Created refering to LittleSnippets.net Pen: http://codepen.io/littlesnippets/pen/adLELd -->
+<div class = "center">
+
+	<h1 style = "text-align: center">CSS3 Transform Image Hover Effect</h1>
+	<!-- Using figure, figcaption and CSS pseudo-element :after -->
+	<div class = "row">
+		<figure class = "test col-xs-6">
+			<img src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample27.jpg">
+			<figcaption>
+				<h1>Lorem Ipsum</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lorem nunc, sollicitudin a nisi sodales, imperdiet dignissim enim. Nam sapien quam</p>
+			</figcation>
+	</figure>
+		<figure class = "test col-xs-6" id = "rotate">
+			<img src = "https://secure.static.tumblr.com/90799389b3be23ce1dfbf9857568e79c/lo8dyha/Pjwo0m4hw/tumblr_static_filename_640_v2.jpg">
+			<figcaption>
+				<h1>Lorem Ipsum</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lorem nunc, sollicitudin a nisi sodales, imperdiet dignissim enim. Nam sapien quam</p>
+			</figcation>
+	</figure>
+	</div>
+	<div class = "description row">
+		<p class = "col-xs-6">Without perspective. translateY()</p>
+		<p class = "col-xs-6">With perspective: 500px. rotateX ( 90deg )</p>
+	</div>
+	<!-- Using only <div> -->
+	<div class = "row">
+		<div class = "frame col-xs-6">
+			<img src = "https://pbs.twimg.com/profile_images/378800000601617732/9e87878ffdd67333ac8b81f9da22696a_400x400.jpeg">
+			<div class = "details">
+				<h1>Lorem Ipsum</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lorem nunc, sollicitudin a nisi sodales, imperdiet dignissim enim. Nam sapien quam</p>
+			</div>
+			
+		</div>
+		
+		<div class = "frame col-xs-6" id = "wth">
+			<img src = "http://40.media.tumblr.com/71b11540d8ac48f78651a7579aa639a4/tumblr_n8r2tzLkV71r0v32do1_1280.jpg">
+			<div class = "details">
+				<h1>Lorem Ipsum</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lorem nunc, sollicitudin a nisi sodales, imperdiet dignissim enim. Nam sapien quam</p>
+			</div>
+			
+		</div>
+		
+	</div>
+	<div class = "description row">
+		<p class = "col-xs-6">With perspective: 500px. rotateY ( 90deg )</p>
+		<p class = "col-xs-6">Without perspective. rotateY ( 90deg )</p>
+	</div>
+	
+	<div class = "description row">
+		<p class = "col-xs-12"><strong>Inspired by: </strong> <a href = "http://codepen.io/littlesnippets/pen/adLELd" target = "_blank">LittleSnippets.net's Pen</a> </p>		
+	</div>
+</div>
+  
+  
+</body>
+</html>

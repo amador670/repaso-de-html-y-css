@@ -1,0 +1,218 @@
+.name{ position:absolute; bottom:10px; right:10px; color: #aaa; font-size:13px}
+.group{ padding: 20px; overflow:hidden}
+.encoding{float:left; line-height:70px; color: #f33}
+h2{font-size: 18px; color:#333;border-bottom: 1px solid #ccc; padding-bottom:2px; }
+.gray{ background: #f6f6f6; border-top: 1px solid #eee; border-bottom: 1px solid #eee;}
+
+
+/*------------------------------------------------------------
+base button
+------------------------------------------------------------*/
+
+.btn{cursor:pointer; float:left;
+display:inline-block;
+margin:0 20px 20px 0;
+background: #09c; 
+width:200px;
+height:70px;
+font-size:20px;
+line-height:70px;
+text-align:center;
+overflow:hidden;
+color:#fff;
+}
+ 
+/*------------------------------------------------------------
+text-shadow effects
+------------------------------------------------------------*/
+.effect1, .effect2, .effect3, .effect4, .effect5, .effect6, .effect8{color:rgba(0,0,0, 0) !important; transition: all .3s ease;}
+
+
+.effect1{text-shadow:0 0 0  #fff, 0 45px 0 #000 ;}
+.effect2{text-shadow:0 0 0  #fff, 0 -45px 0 #000 ;}
+.effect3{text-shadow:0 0 0  #fff, 200px 0 0 #000 ;}
+.effect4{text-shadow:0 0 0  #fff, -200px 0 0 #000 ;} 
+.effect5{text-shadow:0 0 0  #fff;  transition: all .5s ease;}
+.effect6{text-shadow:0 0 0  #fff, 0 -45px 0 #000 ;}
+.effect7{text-shadow:0 0 0  #000; transition: all .3s ease;}
+.effect8{ text-shadow: 0 0 0 #fff ; transition: all .3s ease; }
+
+
+
+
+
+.effect1:hover{ text-shadow: 0 -45px 0 #fff, 0 0 0 #000 ; }
+.effect2:hover{ text-shadow: 0 45px 0 #fff, 0 0 0 #000 ;}
+.effect3:hover{ text-shadow: -200px 0 0 #fff, 0 0 0 #000 ;}
+.effect4:hover{ text-shadow: 200px 0 0 #fff, 0 0 0 #000 ;}
+.effect5:hover{text-shadow:0 0 0  #000, -200px 0 0 rgba(255, 255, 255, .3), 200px 0 0 rgba(255, 255, 255, .3), 0 45px 0 rgba(255, 255, 255, .3) , 0 -45px 0 rgba(255, 255, 255, .3) ;}
+
+.btn.effect7:hover{ text-shadow:-2px 8px 3px  rgba(0, 0, 0, .5);  }
+
+
+
+
+/* hover effect6--------------------------------------------------------------*/
+@-webkit-keyframes drop {
+  0%{text-shadow:0 0 0  #fff, 0 -45px 0 #000 ;}
+   20% {text-shadow:0 0 0  #fff, 0 -15px 0 #000 ;}
+   30%{text-shadow:0 15px 0  #fff, 0 0px 0 #000 ;}
+  40%{text-shadow:0 45px 0  #fff, 0 0px 0 #000 ;}
+   41%{text-shadow:0 45px 0  #fff, 0 0px 0 #000 , 0 -45px 0 #fff ;}
+  70%{text-shadow:0 45px 0  #fff, 0 15px 0 #000 , 0 0px 0 #fff ;}
+  80%{text-shadow:0 45px 0  #fff, 0 45px 0 #000 , 0 0px 0 #fff ;}
+100%{text-shadow:0 45px 0  #fff, 0 45px 0 #000 , 0 0px 0 #fff ;}
+}/*safari and chrome*/
+
+
+@keyframes drop {
+  0%{text-shadow:0 0 0  #fff, 0 -45px 0 #000 ;}
+   20% {text-shadow:0 0 0  #fff, 0 -15px 0 #000 ;}
+   30%{text-shadow:0 15px 0  #fff, 0 0px 0 #000 ;}
+  40%{text-shadow:0 45px 0  #fff, 0 0px 0 #000 ;}
+   41%{text-shadow:0 45px 0  #fff, 0 0px 0 #000 , 0 -45px 0 #fff ;}
+  70%{text-shadow:0 45px 0  #fff, 0 15px 0 #000 , 0 0px 0 #fff ;}
+  80%{text-shadow:0 45px 0  #fff, 0 45px 0 #000 , 0 0px 0 #fff ;}
+100%{text-shadow:0 45px 0  #fff, 0 45px 0 #000 , 0 0px 0 #fff ;}
+}
+
+
+
+.btn.effect6:hover{
+  -webkit-animation: drop .6s 1 linear; 
+ animation: drop .6s 1 linear;}
+/* end hover-----------------------------------------------------------*/
+
+
+
+/* hover effect8--------------------------------------------------------------*/
+@-webkit-keyframes run {
+  0%{text-shadow: 0px  0 0 #fff;}
+
+30%{letter-spacing:60px;}
+  50%{text-shadow: 400px 0 0 rgba(0, 0, 0, 0);}
+51%{text-shadow: -400px 0 0 rgba(0, 0, 0, 0); letter-spacing:30px; }
+85% { letter-spacing:1px;}
+90% { text-shadow: 10px  0 0 #000;}
+}/*safari and chrome*/
+
+
+@keyframes run {
+30%{letter-spacing:60px;}
+  50%{text-shadow: 400px 0 0 rgba(0, 0, 0, 0);}
+51%{text-shadow: -400px 0 0 rgba(0, 0, 0, 0); letter-spacing:30px; }
+85% { letter-spacing:1px;}
+90% { text-shadow: 10px  0 0 #000;}
+} 
+
+
+.effect8:hover{-webkit-animation: run 1s 1 linear;
+  animation: run 1s 1 linear;
+  text-shadow: 0px  0 0 #000;}
+/* end hover-----------------------------------------------------------*/
+
+
+.effect9:hover{  
+  -webkit-animation: pulse .5s infinite  linear; 
+ animation: pulse .5s infinite  linear; }
+
+
+
+@-webkit-keyframes pulse {
+  0%{text-shadow: 0 0 0  rgba( 0, 0, 0, 1); }
+   100%{text-shadow: 0 0  200px black ;}
+ }/*safari and chrome*/
+
+@keyframes pulse {
+  0%{text-shadow: 0 0 0  rgba( 0, 0, 0, 1); }
+   100%{text-shadow: 0 0  200px black ;}
+ }/*safari and chrome*/
+
+
+/*------------------------------------------------------------
+background & box-shadow effects
+------------------------------------------------------------*/
+.b-effect1{ transition: all .7s ease; 
+background: linear-gradient(90deg, #08a 3px, #09c 1px);
+background-size:204px 1px;
+background-position: 50% 50%;
+}
+.b-effect2{ transition: all .7s ease; 
+background: linear-gradient(90deg, #08a 5px, #09c 1px);
+background-size:204px 1px;
+background-position: 100% 0%;
+}
+
+
+.b-effect1:hover{ background-size:3px 1px; }
+.b-effect2:hover{ background-size:5px 1px; }
+
+
+
+
+.b-effect3:before{ transition: all .4s ease-out;
+  float:left;
+  margin-left: -10px;
+  margin-top: -10px;
+  width:10px;
+  height:10px;
+  display: block;
+  background: #fff;
+  content: "";
+  box-shadow: 
+   30px 30px 0px -10px rgba(100, 255, 255, .2);
+  }
+
+
+.b-effect3:hover.b-effect3:before{
+  box-shadow: 
+    30px 30px 0px 20px rgba(0, 0, 0, .2),
+    80px 10px 0px 20px rgba(0, 0, 0, .2),
+    20px 80px 0px 20px rgba(0, 0, 0, .2),
+    100px 60px 0px 20px rgba(0, 0, 0, .2),
+    65px 45px 0px 5px rgba(0, 0, 0, .2),
+    60px 70px 0px 10px rgba(0, 0, 0, .2),
+    130px 10px 0px 20px rgba(0, 0, 0, .2),
+    140px 50px 0px 10px rgba(0, 0, 0, .2),
+    145px 85px 0px 15px rgba(0, 0, 0, .2),
+    185px 75px 0px 15px rgba(0, 0, 0, .2),
+    165px 15px 0px 5px rgba(0, 0, 0, .2),
+    170px 40px 0px 10px rgba(0, 0, 0, .2),
+    160px 60px 0px  rgba(0, 0, 0, .2),
+    195px 45px 0px 5px  rgba(0, 0, 0, .2),
+    190px 10px 0px 10px  rgba(0, 0, 0, .2),
+    190px 30px 0px   rgba(0, 0, 0, .2),
+    200px 30px 0px   rgba(0, 0, 0, .2)
+  ;
+}
+  
+
+.b-effect4:after {
+	width: 100%;
+	height: 40%;
+	left: 0;
+	top: -40%;
+	background: #49a7df;
+	-webkit-transform-origin: 0% 100%;
+	-webkit-transform: rotateX(90deg);
+	-moz-transform-origin: 0% 100%;
+	-moz-transform: rotateX(90deg);
+	transform-origin: 0% 100%;
+	transform: rotateX(90deg);
+}
+
+.btn-8 {
+	display: block;
+	background: #5cbcf6;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+
+
+
+
+
+
+

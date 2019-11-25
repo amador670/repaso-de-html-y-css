@@ -1,0 +1,43 @@
+body {
+	background-color: #F5FDFD;
+	margin: 100px;
+	margin-top: 5px;
+ }
+/* Este es el cuadro contenedor */
+.cuadroPrincipal {
+	text-align: center;
+	border: 3px;
+	border-style: solid;
+	border-color: black;
+	background-color: #EBFFFF;
+	width: 1150px;
+
+}
+
+@media screen and (max-width: 1000px)
+{
+	body{
+		width: 1000px;
+	}
+}
+
+.titulo { font-size: 40px; }
+
+/* Este es el cuadro de los parrafos */
+.cuadro {
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	margin-bottom: 50px;
+}
+
+/* texto final */
+.footer {
+font-size: 40px;
+}
+
+/* ESTILO PARA HREF*/
+a:link {text-decoration:none; color: red;} /* Link no visitado*/
+a:visited {text-decoration:none; color:green} /*Link visitado morado*/
+a:hover {text-decoration:underline; color:red; }
+a:active {text-decoration:underline; color:red; } 

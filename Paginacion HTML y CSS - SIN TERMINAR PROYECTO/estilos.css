@@ -1,0 +1,82 @@
+*{
+ margin: 0;
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+}
+
+body{
+ margin: 50px;
+}
+
+p{
+ padding: 10px 0px;
+ font-size: 17px;
+}
+
+h1{
+ font-family: Agency FB;
+ font-size: 2.5em;
+}
+
+.contaiener { 
+ font-size: 18px;
+ font-family: Verdana; 
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ align-content: center;
+ padding: 20px 0px;
+}
+
+.pagination {
+ background: #f7f7f7;
+ /*Extra*/
+ /* display: flex;
+ width: 100%;
+ min-width: 271px;
+ max-width: 271px;
+ height: 40px;
+ overflow: hidden;*/
+}
+
+ul.pagination {
+ display: inline-block;
+ padding: 0;
+ margin: 0;
+}
+
+ul.pagination li {
+ display: inline;
+}
+
+ul.pagination li a {
+ color: #333333;
+ float: left;
+ padding: 8px 16px;
+ text-decoration: none;
+}
+
+.active a{
+ background-color: #cbcbcb; 
+}
+
+ul.pagination li a:hover:not(.active) {
+ background-color: #cbcbcb;
+}
+
+ul.pagination li a {
+ transition: background-color .3s;
+}
+
+ul.pagination li a {
+ border: 1px solid #d9d9d9;
+}
+
+/*Propiedad para desactivar el boton #next y #prev*/
+.disabled a{
+ cursor: not-allowed;
+ text-decoration: none;
+ display: none;
+}

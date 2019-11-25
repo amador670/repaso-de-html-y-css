@@ -1,0 +1,219 @@
+div.col {
+	display: table-col;
+	padding: 10px;
+	background-color: #eee;
+	text-align: center;
+}
+
+div.col h1 {
+	text-align: center;
+}
+
+div.cambiar {
+	margin: 50px auto;
+	width: 250px;
+	height: 150px;
+	background: #333D42;
+	color: #fff;
+	font-weight: 900;
+	font-size: 1.4em;
+	text-align: center;
+	line-height: 150px;
+	transition: all 0.3s ease;
+}
+
+.cambiar:hover {
+	background: #a5aba1;
+	/* color:#494c46; */
+	-webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+	box-shadow: inset 0 0 0 3px #555953;
+}
+
+.producto {
+	width: 100%;/*Ancho*/
+	max-width: 300px;
+	height: 200px;/*Alto*/
+	margin: 0 auto;
+	border: 5px solid #ffffff;/*borde, estilo y color*/
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	box-shadow: 1px 1px 2px #e6e6e6;
+	display: inline-block;
+	/* cursor: default;
+	background: #fff url(../images/bgimg.jpg) no-repeat center center*/
+}
+
+.producto .mask, .producto .content {
+	width: 100%;/*Ancho*/
+	max-width: 300px; /*Maximo ancho*/
+	height: 200px;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+}
+
+.producto img {
+	display: block;
+	position: relative;
+}
+
+/*Estilos del titulo dentro de la imagen*/
+.producto h2 {
+	text-transform: uppercase;
+	color: #fff;/*Color de fondo*/
+	text-align: center;/*Centrado del titulo*/
+	position: relative;
+	font-size: 17px;/*Ancho de titulo*/
+	padding: 10px;/*Ancho del padding del titulo*/
+	background: rgba(0, 0, 0, 0.8);/*Color de fondo del titulo*/
+	margin: 10px 0 0 0; /*Ancho del margen del titulo*/
+}
+
+/*Estilos del texto (parrafo) dentro de la imagen*/
+.producto p {
+	font-family: Georgia, serif;
+	font-style: italic;
+	font-size: 15px;
+	position: relative;
+	color: #fff;
+	padding: 0px 20px;
+	text-align: center;
+}
+
+
+@media screen and (max-width:400px){
+	.producto p{
+		padding: 0px 5px;
+	}
+	.producto img{
+		width: 100%;
+		height: 100%;
+		max-height: 200px;
+	}
+}
+
+/*Estilo de la informacion al final (Leer más)*/
+.producto a.info {
+	display: inline-block;
+	text-decoration: none;
+	padding: 7px 14px;
+	background: rgba(0, 0, 0, 0.8);
+	color: #fff;
+	box-shadow: 0 0 1px #000;
+}
+
+.producto a.info:hover {
+	box-shadow: 0 0 10px #696969;
+}
+
+/* ANIMACIONES DE LAS IMAGENES Y CONTENEDORES */
+.prod-first img {
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+.prod-first .mask {
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	background-color: rgba(0, 0, 0, 0.4); /*Color de fondo de la imagen*/
+	/* background-color: rgba(219,127,8, 0.7); */
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+.prod-first h2 {
+	-webkit-transform: translateY(-100px);
+	-moz-transform: translateY(-100px);
+	-o-transform: translateY(-100px);
+	-ms-transform: translateY(-100px);
+	transform: translateY(-100px);
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.prod-first p {
+	-webkit-transform: translateY(100px);
+	-moz-transform: translateY(100px);
+	-o-transform: translateY(100px);
+	-ms-transform: translateY(100px);
+	transform: translateY(100px);
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+.prod-first:hover img {
+	-webkit-transform: scale(1.1, 1.1);
+	-moz-transform: scale(1.1, 1.1);
+	-o-transform: scale(1.1, 1.1);
+	-ms-transform: scale(1.1, 1.1);
+	transform: scale(1.1, 1.1);
+}
+
+.prod-first a.info {
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.prod-first:hover .mask {
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.prod-first:hover h2,
+.prod-first:hover p,
+.prod-first:hover a.info {
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	-o-transform: translateY(0px);
+	-ms-transform: translateY(0px);
+	transform: translateY(0px);
+}
+
+.prod-first:hover p {
+	-webkit-transition-delay: 0.1s;
+	-moz-transition-delay: 0.1s;
+	-o-transition-delay: 0.1s;
+	-ms-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+.prod-first:hover a.info {
+	-webkit-transition-delay: 0.2s;
+	-moz-transition-delay: 0.2s;
+	-o-transition-delay: 0.2s;
+	-ms-transition-delay: 0.2s;
+	transition-delay: 0.2s;
+}

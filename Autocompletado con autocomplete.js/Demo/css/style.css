@@ -1,0 +1,205 @@
+@CHARSET "UTF-8";
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:300,600);
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Raleway !important;
+	background-color: #FDFFE0;
+	background-image: url('../img/mooning.png');
+}
+
+h1 {
+	text-align: center;
+	font-weight: normal;
+	font-size: 4em;
+	color: #940000;
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	margin: 20px 0px 0px;
+}
+
+h2 {
+	display: block;
+	font-size: 1.3em;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: normal;
+	margin: 15px 0px 20px;
+}
+
+:focus {
+	outline: none;
+}
+
+h3 {
+	font-weight: normal;
+	font-size: 2em;
+	text-transform: uppercase;
+	color: #5A0404;
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	margin: 30px 0px 20px;
+	text-decoration: underline;
+}
+
+header {
+	padding-top: 10px;
+	background-color: rgba(255, 255, 255, 0.39);
+	padding-bottom: 40px;
+	text-align: center;
+	box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.5);
+}
+
+.button {
+	display: inline-block;
+	margin: 25px 0 0;
+	padding: 0 25px;
+	clear: both;
+	color: rgba(0, 0, 0, 0.56);
+	font-size: 12px;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: 2px solid rgba(0, 0, 0, 0.26);
+	height: 40px;
+	line-height: 40px;
+	border-radius: 5px;
+	-webkit-transition: .2s all;
+	transition: .2s all;
+	font-weight: bold;
+}
+
+.button:HOVER {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+#container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+#search-box {
+	position: relative;
+	width: 400px;
+	margin: 0 auto;
+	display: inline;
+}
+
+
+.wrapper {
+	width: 750px;
+	margin: 0 auto;
+}
+
+#sign {
+	text-align: center;
+	margin-top: 100px;
+}
+
+a.github-ribbon {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+#message {
+	margin-top: 40px;
+	margin-bottom: 50px;
+	font-size: 20px;
+	text-align: center;
+}
+
+#setup {
+	background-color: rgba(255, 255, 255, 0.34);
+	padding: 5px 0px;
+	line-height: 30px;
+}
+
+span.highlighted {
+	background-color: rgba(255, 255, 255, 0.64);
+	color: rgba(0, 0, 0, 0.83);
+	padding: 5px;
+	border-radius: 3px;
+}
+
+pre {
+	width: 600px;
+	margin: 30px auto !important;
+	border-radius: 3px;
+}
+
+#options {
+	line-height: 35px;
+}
+
+#icon-search {
+	width: 140px;
+	position: absolute;
+	top: 85px;
+	right: 0px;
+	opacity: 0.5;
+}
+
+#options .wrapper {
+	position: relative;
+}
+
+.btn-container {
+	text-align: center;
+}
+
+#download {
+	background-color: rgba(255, 255, 255, 0.34);
+	padding: 5px 0px 40px;
+	margin-top: 30px;
+}
+
+#twitter-share {
+	float: left;
+	margin-top: 20px;
+}
+
+.fb_iframe_widget {
+	display: inline-block;
+	position: relative;
+	margin-top: 20px;
+}
+
+.fb-like {
+	margin-right: 20px;
+	float: left;
+}
+
+#sharing-box {
+	width: 150px;
+	margin: 0px auto 25px auto;
+	height: 50px;
+	text-align: center;
+}
+
+.github-btn-large {
+	height: 30px;
+	display: inline-flex !important;
+}
+
+
+footer {
+	padding: 30px;
+	box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.5);
+}
+
+footer a {
+	text-decoration: none;
+	color: #970000;
+}
+
+footer a:HOVER {
+	color: rgba(151, 0, 0, 0.5);
+}

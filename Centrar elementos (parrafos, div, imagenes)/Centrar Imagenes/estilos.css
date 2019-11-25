@@ -1,0 +1,20 @@
+body { 
+	font-size: 20px;
+	text-align: justify;
+	margin: 50px;
+	font-family: comic sans ms;
+	background-color: #020034;
+}
+
+.contenedor{
+	background-color: #a4d4fd;/*#a4d4fd*/
+	width: 50%;
+	max-width: 550px;
+	height: 550px;
+	text-align: center;
+}
+
+img{
+	width: 300px;
+	margin: 125px 0;/*Se usa el alto de contenedor (550) menos el ancho de la imagen (300) da como resultado 250px entre 2 es igual a 125px*/
+}

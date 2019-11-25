@@ -1,0 +1,12 @@
+#contenedor
+{
+width: 31%;
+min-width:31%;
+min-height:250px;
+display:inline-block;
+margin-bottom:10px;
+background-color: rgba(0,186,155,.2);
+border-width: 4px;
+border-style:double;
+border-color:#00FFE2;
+}

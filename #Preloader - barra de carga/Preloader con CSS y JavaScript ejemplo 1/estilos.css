@@ -1,0 +1,42 @@
+body { 
+	font-size: 20px;
+	text-align: justify;
+	margin: 50px;
+	font-family: comic sans ms;
+}
+
+#preloader{
+	width: 70px;
+	height: 70px;
+	border: 10px solid #eee;
+	border-top: 10px solid #666;
+	border-radius: 50%;
+	animation-name: girarPreloader;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	margin: auto;
+	position: absolute;
+	top: 0; right: 0;	bottom: 0; left: 0;
+	/*animation-timing-function: linear; para hacer que la velocidad sea la misma*/
+}
+
+@keyframes girarPreloader{
+	form{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
+
+img{
+	padding: 10px;
+	display: block;
+	text-align: center;
+}
+
+.contenedor img{
+	margin: auto;
+	width: 50%;
+	max-width: 500px;
+}

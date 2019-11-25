@@ -1,0 +1,120 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #647a94;
+  height: 100vh;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 100%;
+}
+
+.console {
+  max-width: 720px;
+  min-width: 460px;
+  width: 50vw;
+  max-height: 540px;
+  min-height: 320px;
+  height: 50vh;
+  border: 4px solid #bbb;
+  font-family: 'Source Code Pro', monospace;
+}
+.console .console-head {
+  height: 24px;
+  background-color: #bbb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 4px solid #bbb;
+}
+.console .console-head .console-title {
+  font-weight: 600;
+  color: #222;
+}
+.console .console-head .console-actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.console .console-head .console-actions .console-action {
+  margin-left: 4px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  color: #222;
+  text-align: center;
+  font-size: 0.9em;
+}
+.console .console-head .console-actions .console-action .fa {
+  line-height: 20px;
+}
+.console .console-head .console-actions .console-action.console-action-min {
+  background-color: #eeee73;
+}
+.console .console-head .console-actions .console-action.console-action-max {
+  background-color: #bee07e;
+}
+.console .console-head .console-actions .console-action.console-action-close {
+  background-color: #e08d8d;
+}
+.console .console-body {
+  height: calc(100% - 24px);
+  background-color: #222;
+}
+.console .console-body .console-text {
+  padding: 4px;
+  color: #ddd;
+}
+.console .console-body .console-text .console-input {
+  -webkit-animation: 1.5s blink infinite;
+          animation: 1.5s blink infinite;
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  51% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  51% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}

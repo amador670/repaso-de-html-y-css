@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+        <link href="estilos.css" rel="stylesheet">
+        <script src="push.js"></script>
+       
+    </head>
+    <body>
+    	
+        <h2><a href="https://nickersoft.github.io/push.js/">Documentacion GitHub</a></h2>
+        <script>
+            Push.create("Activa JavaScript", {
+			body: "Para disfrutar correctamente de nuestra página web debes activar JavaScript",
+			icon: 'javascript.png',
+			timeout: 4000,
+			onClick: function () {
+				window.focus();
+				this.close();
+			}
+		});
+        </script>
+    </body>
+</html>

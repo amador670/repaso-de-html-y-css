@@ -1,0 +1,11 @@
+HORIZONTALMENTE
+  -text-align: centrar texto horizontalmente
+  -margin: auto: centra elementos bloque con ancho especifico   horizontalmente
+
+VERTICALMENTE
+  -line-heigth: centrar una linea de texto verticalmente
+  -margin-top, margin-bottom; centra verticalmente a partir del   margin
+
+FLEXBOX
+  -Flexbox: centra horizontalmente o verticalmente cualquier   elemento
+

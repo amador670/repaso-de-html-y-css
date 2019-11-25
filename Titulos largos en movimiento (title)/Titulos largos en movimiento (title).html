@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ejercicios de JavaScript</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+    <style>
+      body { 
+        font-size: 20px;
+        text-align: justify;
+        margin: 50px;
+      }
+    </style>
+
+    <script>
+      var tagTitulo = "Titulos largos en movimiento (tag title) - ";
+      function mostrarTitulo(){
+        document.title = tagTitulo;
+        var refrescarTitulo = setTimeout(mostrarTitulo, 200);
+        tagTitulo = tagTitulo.substring(1,tagTitulo.length)+ tagTitulo.charAt(0); //La variable "tagTitulo" sera igual al esa misma variable con el metodo.subString con indice (1, + el titulo.length) + el titulo.charAt indice(0). Es el indice de donde va a comenzar y el 1 es el indice inicial y .length es el final;
+      }
+      mostrarTitulo();          
+    </script>
+  </head>    
+  <body>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi dolor architecto illo quas reiciendis odit molestiae aliquam incidunt enim, maxime. Velit ullam sapiente harum, eos nihil dolorem cumque doloribus reprehenderit.</p>
+
+    <p>Iure vero sed perspiciatis qui necessitatibus quo impedit nam officiis cum id at, et quaerat fugiat distinctio, explicabo magni eaque deleniti animi, alias eligendi molestias cumque iste dignissimos ea! Eius!</p>
+
+    <p>Quod officiis quis nam explicabo repudiandae ducimus eligendi deleniti non ipsa, consequatur provident placeat, autem minima eum iure laudantium ullam expedita facere porro magnam dolores. Dicta obcaecati vero cumque odio?</p>
+
+    <p>Aliquid ipsum id impedit ullam reprehenderit voluptatibus iste, ea deserunt voluptates enim odit rerum quam hic distinctio incidunt, porro laudantium aspernatur amet beatae ipsa placeat inventore doloremque dolorum ratione? Alias?</p>
+
+    <p>Soluta aperiam culpa quaerat quasi, adipisci corporis optio possimus, voluptatem quibusdam eos repellendus laudantium expedita ab sit eaque iste reprehenderit necessitatibus voluptatum quas autem unde assumenda sequi! Animi, dolorum, mollitia.</p>
+
+  </body>
+</html>

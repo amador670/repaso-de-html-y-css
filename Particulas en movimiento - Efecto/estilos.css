@@ -1,0 +1,39 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body { 
+  font-size: 20px;  
+  font-family: comic sans ms;
+  background-size: cover;
+  background-image: url(img.jpg);
+  background-attachment: fixed;
+}
+
+#particles-js{
+  width: 100%;
+  height: 100%; 
+  background-color: rgba(0, 0, 0, .4);  
+  position: fixed;
+}
+
+.contenido{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1100px;
+  /*height: 600px; Esta propiedad es para el largo del cuadro del cotenido*/ 
+  color: white;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  position: relative; /*Cada elemento que queremos traer hacia adelante le añadimos position:relative*/
+}
+
+.contenido h1, h2, h3, h4, h5, h6{
+  text-align: center;
+}
+
+.contenido p{
+  padding: 10px;
+}

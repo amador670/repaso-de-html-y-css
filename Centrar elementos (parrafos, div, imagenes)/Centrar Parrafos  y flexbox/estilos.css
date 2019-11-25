@@ -1,0 +1,31 @@
+body { 
+	font-size: 20px;
+	text-align: justify;
+	margin: 50px;
+	font-family: comic sans ms;
+	background-color: #020034;
+}
+
+.contenedor{
+	background-color: #a4d4fd;
+	color: #001779;
+	width: 50%;
+	max-width: 550px;
+	height: 550px;
+
+	/*Se alinia con flexbox - SE AÑADEN ESTAS PROPIEDADES AL ELEMENTO PADRE*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+}
+
+p{
+	background: #f2f2f2;
+	color: #494949;
+	width: 80%;
+	/*margin: auto; si se añade y se quita flexbox aun funciona*/
+	padding: 15px;
+}

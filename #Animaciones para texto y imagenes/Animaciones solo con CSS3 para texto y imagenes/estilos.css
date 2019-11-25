@@ -1,0 +1,81 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body { 
+  font-size: 20px;
+  text-align: justify;
+  background-image: url(img1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: comic sans ms;
+  margin: 0px 50px;
+}
+
+.textoAnimado{
+  top: 200px;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color:white;
+  padding: 20px;
+}
+
+.textoAnimadoSub{
+  width: 80%;
+  margin: auto;
+}
+
+.textoAnimadoSub h1{
+  font-size: 50px;
+}
+
+.textoAnimadoSub p{
+  font-size: 25px;
+  padding-top: 10px
+}
+
+img{
+  margin: 0px auto;
+  padding: 10px 0px;
+  width: 50%;
+  height: 100%;
+  max-height: 200px;
+  display: block;
+ }
+
+.contenido{
+  width: 100%;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.5);
+  color:white;
+  padding: 20px;
+}
+.contenido p{
+  padding-bottom: 20px;
+}
+
+.bounceInUp {
+  -webkit-animation-duration:1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+  
+  -webkit-animation-delay: 0.4s;
+  -o-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+  
+  -webkit-animation-interation-count:infinite ;
+  -moz-animation-interation-count:infinite ;
+  -ms-animation-interation-count:infinite ;
+  -o-animation-interation-count:infinite ;
+  animation-interation-count:infinite ;
+}
+
+.pulse{
+  -webkit-animation-delay: 0.4s;
+  -moz-animation-delay: 0.4s;
+  -o-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}

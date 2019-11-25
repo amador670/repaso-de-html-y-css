@@ -1,0 +1,16 @@
+<pre class="brush: html;">
+&lt;html&gt;
+&lt;head&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+____________________________
+Efecto que yo uso actualmente es: 
+<pre class="brush: html; html-script: false; auto-links: true; class-name:'class_name_demo'">
+____________________________
+16 paginas para resaltar codigo de programacion
+
+http://www.elwebmaster.com/general/los-mejores-resaltadores-de-sintaxis-de-codigo-para-tu-web

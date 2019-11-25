@@ -1,0 +1,37 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body { 
+  background-image: url(img1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#contenido{
+  margin: 50px;
+  padding: 50px;
+  color: black;
+  background-color: rgba(0, 0, 0, 0.32);
+  background-image: url(img1-desenfoque.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  text-align: left;
+  font-family: comic sans ms;
+}
+
+img {
+  margin: auto;
+  margin-bottom: 40px;
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  height: 100%;
+  max-height: 250px;
+  border: solid 3px #00a7ff;
+}

@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-bg-btn: #009dff;
+    --color-bg-btn-hover: #0062cc;
+    --color-shadow-btn-active: rgba(0, 0, 0, .3);
+    --color-border-field: rgb(200, 200, 200);
+}
+
+.input-file-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.input-file-input {
+    display: none;
+}
+
+.input-file-name-bar,
+.input-file-btn {
+    height: 34px;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-family: Arial;
+}
+
+.input-file-btn {
+    background-color: var(--color-bg-btn);
+    color: white;
+    width: 170px;
+    text-align: center;
+    line-height: 22px;
+    cursor: pointer;
+    border-bottom: 3px solid rgb(0, 0, 0, 0.3);
+}
+
+.input-file-btn:hover {
+    background-color: var(--color-bg-btn-hover);
+}
+
+.input-file-btn:active {
+    -webkit-box-shadow: 0 3px 5px var(--color-shadow-btn-active) inset;
+    box-shadow: 0 3px 5px var(--color-shadow-btn-active) inset;
+}
+
+.input-file-name-bar {
+    border: 1px solid var(--color-border-field);
+    width: calc(100% - 182px);
+    margin-right: 12px;
+    line-height: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow-x: hidden
+}
+
+.input-file-reverse .input-file-name-bar {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    margin-right: 0;
+    margin-left: 12px;
+}
+
+@media screen and (max-width: 575px) {
+    .input-file-name-bar {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 6px;
+    }
+
+    .input-file-reverse {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+
+    .input-file-reverse .input-file-name-bar {
+        margin-left: 0;
+        -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+        order: 0;
+    }
+}

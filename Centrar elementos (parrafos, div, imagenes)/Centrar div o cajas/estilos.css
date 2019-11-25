@@ -1,0 +1,28 @@
+body { 
+	font-size: 20px;
+	text-align: justify;
+	margin: 50px;
+	font-family: comic sans ms;
+	background-color: #020034;
+}
+
+.contenedor{
+	background-color: #a4d4fd;
+	color: #001779;
+	width: 50%;
+	max-width: 550px;
+	height: 550px;
+	/*FLEXBOX*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.caja{
+	width: 80%;
+	background: #2e699b;
+	height: 100px;
+	margin: auto;
+}

@@ -1,0 +1,48 @@
+* { 
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(img1.png);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  /*Si usamos una imagen y no una textura se añade:*/
+  /*background-repeat: no-repeat*/
+  /*background-size:cover;*/
+
+}
+
+#contenedor{
+  width: 100%;
+  max-width: 1050px;
+  margin: auto;
+}
+
+.contenido{
+  background-color: rgba(0, 0, 0, 0.78);
+  padding: 20px;
+  margin: 20px 0;
+  color:white;
+  font-size: 20px;
+  font-family: helvetica, comic sans ms;
+  text-align: left;
+  box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.47);
+}
+
+.contenido h2{
+  font-family: comic sans ms;
+}
+
+.contenido hr{
+  background: #fff;
+  height: 5px;
+  border: none;
+  margin: 15px 0;
+
+}
+
+p{
+  margin: 5px 0;
+}

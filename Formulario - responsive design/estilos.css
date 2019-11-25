@@ -1,0 +1,75 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	
+}
+
+body {
+	background: url(fondo-formulario.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+    font-family:Comic Sans MS;
+
+}
+
+h1 {
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 35px;
+	display: block;
+	margin: 35px;
+}
+
+form {
+	padding: 35px;
+	margin: auto;
+	max-width: 500px;
+	border-radius: 10px;
+	background: rgba(255, 255, 255, 0.5);
+	border: 1px solid rgba(0,0,0,0.2);
+
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+	color: rgba(0,0,0,0.5);
+}
+
+input {
+	display: block;
+	padding: 10px;
+	width: 100%;
+	margin: 15px 0;
+	font-size: 20px;
+	border-radius: 5px;
+	border: none;
+}
+
+input[type="submit"] {
+	background: #488888;
+	border: none;
+	border-radius: 7px;
+	color: #FFFFFF;
+	cursor: pointer;
+	margin-bottom: 0;
+	font-size: 20px;
+}
+
+input[type="submit"]:active {
+	transform: scale(0.90);	
+}
+
+@media (max-width: 768px){
+	form {
+		width: 75%;
+	}
+}
+
+@media (max-width: 480px) {
+	form {
+		width: 95%;
+	}
+}

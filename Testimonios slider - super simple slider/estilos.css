@@ -1,0 +1,45 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body { 
+  background: #006cff;
+  margin: 50px;
+  font-family: comic sans ms;
+  }
+
+.contenido{
+  margin: 50px 0px;
+  padding: 50px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.32);
+  font-size: 20px;
+  text-align: left; 
+}
+
+
+.testimonios{
+	width: 100%;
+  clear: both;
+  padding: 10px 50px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #0b0b0b;
+	font-family: helvetica;
+	font-size: 14px;
+}
+
+.testimonios img{
+  width: 100%;
+  max-width: 220px;
+  height: 100%;
+  max-height: 220px;
+  margin: 10px auto;
+  border-radius: 50%;
+}
+
+.testimonios h2{
+  margin-bottom: 10px;
+}

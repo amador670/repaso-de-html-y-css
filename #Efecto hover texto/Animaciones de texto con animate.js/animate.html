@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Animate JavaScript</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+		<link rel="stylesheet" href="animate.css">
+		<link rel="stylesheet" href="estilos.css">
+
+	</head>    
+	<body>
+		
+		<ul>
+			<li>data-animation-delay="1000". Indica cuanto tiempo tardara en ejecutarse</li>
+		</ul>
+
+		<h1>Titulo de la pagina numero 1</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, perspiciatis. Error minus aspernatur quasi tenetur, ad laudantium cum optio atque libero autem modi ducimus est iure beatae nulla, harum pariatur.</p>
+
+		<p>Unde dolorum fugiat nostrum, est labore blanditiis neque debitis accusamus eligendi voluptatibus veritatis consectetur earum non quasi cumque dolores. Recusandae enim nam ullam vel eveniet itaque voluptates suscipit eum ad.</p>
+
+		<p>Sapiente dolorum atque dignissimos consectetur inventore ex facilis voluptatum aliquam quaerat dolor laboriosam voluptatem repellat vitae commodi unde, adipisci mollitia accusantium itaque. Maxime unde explicabo et, ab obcaecati quod assumenda!</p>
+		<p>Laboriosam sed fuga delectus repudiandae, laborum aliquid quasi ab repellat? Quos, ducimus, labore magni, similique et ratione ut sit sunt quibusdam voluptatem aut. Consectetur ab, reprehenderit fugiat molestiae pariatur, dolor.</p>
+
+		<h1 data-animate data-animation-classes="animated fadeIn" data-animation-reverse="true">Titulo de la pagina numero 2</h1>
+		<p>Sint praesentium sapiente, voluptatibus totam culpa consequuntur est voluptatem, libero nam dignissimos! Rem, ipsa incidunt consequatur dicta dolore beatae quibusdam, quam natus sequi eligendi aspernatur alias asperiores dignissimos tenetur, fugiat.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae totam tenetur qui provident, minus magni eveniet doloremque expedita quo officia accusantium ex nobis pariatur error deleniti eaque similique rerum impedit?</p>
+
+		<p>Provident repudiandae qui in cumque rem aliquam libero magni temporibus, consequatur sed eaque veniam tenetur aut delectus exercitationem voluptatum dolorem fuga doloribus. Officia quidem, saepe obcaecati magni voluptatem, ad odit!</p>
+
+		<h1 data-animate data-animation-classes="animated tada" data-animation-delay="1000">Titulo de la pagina numero 3</h1>
+		<p>Officiis, est placeat? Ipsam quisquam a illum sequi ea architecto assumenda iste autem suscipit eaque quasi vitae id voluptatem, beatae enim incidunt distinctio voluptate nemo maxime dolorem quidem. Consequuntur, laudantium.</p>
+
+		<p>Excepturi neque voluptate minima expedita itaque provident accusamus sit magni, labore ab suscipit sequi quaerat ut. Blanditiis dolore consectetur est deleniti libero nobis, temporibus ipsam commodi cupiditate atque quas labore!</p>
+
+		<p>Dignissimos impedit incidunt voluptates nihil quidem est asperiores saepe beatae assumenda sequi, accusantium consequatur, fugit consequuntur, distinctio! Similique quisquam officiis tempora, culpa ipsa inventore nostrum, magni, sapiente quas sit necessitatibus.</p>
+
+		<h1 data-animate data-animation-classes="animated bounce" data-animation-offset="0.2, 0.5">Titulo de la paginan numero 4</h1>
+		<p>Tenetur omnis ullam aspernatur officiis, quidem nobis dolor assumenda aut minus tempora, deleniti ipsam. Commodi rem deserunt tempore, cum, obcaecati animi. Ullam sapiente necessitatibus soluta, repudiandae nisi quasi velit facere.</p>
+
+		<p>Facere atque fugiat maiores soluta. Quaerat quos similique deserunt blanditiis, corporis deleniti, impedit ad sed saepe provident officia error enim nobis velit nihil fuga vero harum ex repudiandae a laboriosam!</p>
+
+		<p>Molestiae ullam fugit quasi, reprehenderit suscipit nihil sequi et saepe corporis ut sit cumque tenetur id natus eum aut non, consequatur at, doloribus nesciunt ratione. Asperiores autem esse, accusantium vero.</p>
+
+		<h1 div data-animate data-animation-classes="animated bounce" data-animation-remove="true">Titulo de la pagina numero 5</h1>
+		<p>At vel similique quia consequatur dolore impedit error beatae rem incidunt. Doloribus molestiae pariatur quia consequuntur quisquam atque debitis quaerat explicabo voluptatum, placeat fugit delectus et, reprehenderit at iusto officiis!</p>
+
+		<p>A veniam aspernatur perspiciatis laborum velit dolores pariatur laudantium, libero sapiente illum, debitis, iusto non hic minima dolor. Dolore doloremque architecto at quibusdam error dolorem perferendis nulla natus provident dignissimos!</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, nesciunt officiis magnam ipsam consequatur consectetur fugit, laborum quos, doloremque harum possimus quas voluptatum quod fugiat! Tempore natus eveniet esse impedit.</p>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="animate.js"></script>
+
+		<script>
+			var animate = new Animate({        
+				target: '[data-animate]',
+				animatedClass: 'js-animated',
+				offset: [0.5, 0.5],
+				delay: 1000,
+				remove: true,
+				scrolled: false,
+				reverse: false,
+				onLoad: true,
+				onScroll: true,
+				onResize: false,
+				disableFilter: false,
+				callbackOnInit: function() {},
+				callbackOnAnimate: function(el) {},
+			});
+			animate.init();
+		</script>
+
+	</body>
+</html>

@@ -1,0 +1,6 @@
+Otra pagina muy buena con 176 lenguajes registrados y 79 estilos para usar, esta pagina es: 
+
+https://highlightjs.org/
+
+Un buen ejemplo en la pagina:
+https://www.ghostforbeginners.com/highlight-code-syntax-using-highlight-js/

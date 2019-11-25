@@ -1,0 +1,62 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+
+body{
+  background-image: url(imagen.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+@media screen and (max-width: 1080px){
+  body{
+    background-image: none;
+    font-size: 17px;
+    color: #333;
+    background:linear-gradient(135deg, #34B0E1 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px), linear-gradient(225deg, #34B0E1 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+    background-color:#34B0E1;
+    background-size: 64px 128px;
+  }		  
+}
+
+#vacio{
+  width: 100%;
+  height: 700px;
+}
+
+#bienvenidos{
+  font-size:50px;
+  font-family: comic sans ms;
+  text-align: center;
+  color:white;
+  background-color: rgba(0, 0, 0, .3);
+  border: solid 2px white; 
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%)
+}
+
+#contenedor{
+  width: 100%;
+  background-color: #E2E2E2;
+}
+
+.contenido{
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  padding: 0px 20px;
+  font-size: 20px;
+  text-align: left;
+  font-family: comic sans ms;
+  color:#B94935;
+}
+
+p{
+  margin-bottom: 10px;
+}

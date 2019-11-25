@@ -1,0 +1,13 @@
+Las transformaciones todavía no están definidas como un estándar en todos los navegadores, por lo que es necesario agregar el prefijo del navegador que la implementa:
+
+Elemento {
+     -ms-transform: función de transformación(valor(es));     /* Internet Explorer */
+     -webkit-transform: función de transformación(valor(es)); /* WebKit */
+     -moz-transform: función de transformación(valor(es));    /* Firefox */
+     -o-transform: función de transformación(valor(es));      /* Opera */
+
+Tengamos en cuenta que la propiedad de transformación definitiva será:
+
+Elemento {
+      transform: función de transformación(valor(es));
+}

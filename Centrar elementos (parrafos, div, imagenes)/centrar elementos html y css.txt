@@ -1,0 +1,30 @@
+Se puede centrar elementos de HTML mediante CSS usando:
+
+1.- Se establece "margin: 0 auto;" para añadir un margen 0 y centrar nuestro elemento. IMPORTANTE: Para que funcione este metodo debe haber un ancho (width) establecido.
+
+2.- Se añade la propiedad "text-align: center;" y se centra el elemento
+
+3.- Se crean dos div y se le añaden las siguientes propiedades, ejemplo:
+	<div class="horizontal">
+	   <div class="vertical">
+	      <imagen o elemento>
+	   </div>
+	</div>
+
+Y en CSS añadimos: 
+	.horizontal{
+		display: flex;
+		justify-content: center;
+		}
+	.vertical{
+		display: flex;
+		justify-cotent: center;
+	             }
+
+4.- Tambien sirve convertir una imagen o un elemento a tipo bloque (parrafo <p> ) y añadirle los magenes auto, ejemplo:
+	elemento {
+		display: block;
+		margin: 0 auto;
+		}
+		
+O añadirlos a "display: inline-block;"  de esta forma permite que los elementos se coloquen uno detras de otro

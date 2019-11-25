@@ -1,0 +1,53 @@
+*{
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
+
+}
+
+.slidershow{
+width: auto;
+min-height: 850px;
+height: 850px;
+}
+
+@media screen and (max-width: 1200px){
+  .slidershow{
+    width: auto;
+    height: 850px;
+  }  
+}
+
+@media screen and (max-width: 1000px){
+  .slidershow{
+    width: auto;
+    height: 100%;
+  }  
+}
+
+@media screen and (max-width: 850px){
+  .slidershow{
+    width: auto;
+    height: 100%;
+  }  
+}
+
+@media screen and (max-width: 500px){
+  .slidershow{
+    width: auto;
+    height: 100%;
+  }  
+}
+
+@media screen and (max-width: 400px){
+  .slidershow{
+    width: auto;
+    height: auto;
+  }  
+}
+
+
+
+
+
+

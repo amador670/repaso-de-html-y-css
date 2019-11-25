@@ -1,0 +1,23 @@
+.contenedor {
+  position: relative;
+}
+
+.descripcion {
+  width: 200px; 
+  height: 200px;
+  margin: 5px;
+  background-color: blue;
+  display: inline-block;
+}
+p {
+  position: relative;
+  width: 200px;
+  height: 50px;  
+  background-color: rgba(0, 0, 0, 0.6);
+  bottom: 5px;
+  font-family: verdana;
+  color: white;
+  text-align: center;
+  top: 135px;
+ 
+}

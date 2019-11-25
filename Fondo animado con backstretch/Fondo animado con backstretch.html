@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Backstretch</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+		<link rel="stylesheet" href="estilos.css"/>
+		<script src="jquery.js"></script>
+		<script src="jquery.backstretch.js"></script>
+	</head>
+	<body>
+
+		<div class="contenedorEffect" style="width:50%;background:rgba(0, 0, 0, 0.7); padding: 15px; border: 10px double #00d9e2;">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At animi aspernatur sed fugit asperiores dolorem nobis dolor unde quod, iure tempore et, doloremque ullam fuga reiciendis, delectus voluptatum natus, ipsam.</p>
+			<p>Reprehenderit minima ipsa voluptatem quasi quis aut deserunt laboriosam officiis quisquam itaque dicta facere qui impedit alias expedita neque praesentium nobis optio eos sequi ab soluta nostrum, atque, perspiciatis. Harum.</p>
+			<p>Natus cupiditate saepe, neque reiciendis alias commodi fuga quisquam tempore praesentium minus rerum a, ducimus nihil, laudantium impedit. Id a mollitia nam reprehenderit eum quibusdam at, impedit commodi fugiat quia.</p>
+		</div>
+
+		<!-- Para efecto con evento (button). Aplicar para el tercer ejemplo.
+		<input type="button" id="imgOriginal" value="Show image original"/>
+		<input type="button" id="img1" value="Show image number one" />
+		<input type="button" id="img2" value="Show image number two" />
+			-->
+
+		<script>
+			/*1.- Mostrar efecto sencillo*/
+			$.backstretch(["img.jpg"])
+
+			/*7.- Contenedor con imagen de fondo (este efecto se hace facilmente con CSS3)*/	$(".contenedorEffect").backstretch(["img5.jpg"],{
+				border: "10px",
+				borderStyle:"solid",
+				borderColor:"red"				
+			});;
+
+			/*2.- Mostrar efecto slidershow cada 5 segundos
+			$.backstretch([
+				"img.jpg",
+				"img2.jpg",
+				"img3.jpg",
+				"img4.jpg",
+				"img5.jpg"
+			], {duration: 5000, fade: 750});*/
+
+			/*3.- Mostrar efecto mediante un evento (en este caso un click a un boton)
+			$.backstretch("img.jpg", {speed: 500});
+
+			$("#imgOriginal").click(function(e){
+				e.preventDefault();
+				$.backstretch("img.jpg");
+			});
+
+			$("#img1").click(function (e) {
+				e.preventDefault();
+				$.backstretch("img2.jpg");
+			});
+
+			$("#img2").click(function (e) {
+				e.preventDefault();
+				$.backstretch("img3.jpg");
+			});*/
+
+			/*4.- Con lazyLoading (hay que añadir el script al documento.):
+			  $.backstretch([
+                "pot-holder.jpg",
+                "coffee.jpg",
+                "dome.jpg"
+            ], {
+                fade: 750,
+                duration: 4000,
+                preload: 0,
+                start: 2
+            });*/
+
+			/*5.- Con transiciones y efectos al pasar la foto
+			$.backstretch([
+      "pot-holder.jpg",
+      "coffee.jpg",
+      "dome.jpg"
+      ], {
+        duration: 4000,
+        transition: 'push_left|push_right|cover_up|cover_down|fade',
+        transitionDuration: 250
+    });*/
+
+			/*6.- Video slider desde youtube o enlace interno
+			$.backstretch([
+            { url: "https://www.youtube.com/watch?v=a7nXUqGBdRQ", duration: 7000, mute: false, alignY: 0 },
+            "https://www.youtube.com/watch?v=Nq0Ddu2EwFQ",
+            "pot-holder.jpg"
+        ], {
+            fade: 750,
+            duration: 4000,
+            preload: 5
+        });			*/
+		</script>
+	</body>
+</html>

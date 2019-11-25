@@ -1,0 +1,18 @@
+Pagina 1°
+El link tiene cuatro estados y por tanto hay que definir cada una de ellas:
+
+    Link no visitado. Se define con el atributo link.
+    Link visitado. Se define con el atributo visited.
+    Link activo (justo cuando presionamos). Se define con active.
+    Link con el reton encima. Se define con hover.
+http://blogandweb.com/css/estilos-a-los-enlaces-con-css/
+______________________________________________________________
+Pagina 2°
+LIBROSWEB
+Decoración personalizada
+http://librosweb.es/libro/css/capitulo_7/estilos_avanzados.html
+______________________________________________________________
+3°
+LIBROSWEB
+Estilos básicos
+http://librosweb.es/libro/css/capitulo_7.html

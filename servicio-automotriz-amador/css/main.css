@@ -1,0 +1,156 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body
+{
+ padding-top:0px;
+ margin: 0px;
+ font-family: Verdana, Geneva, sans-serif;
+ font-size:12px;
+ color:#333333;
+}
+
+img{
+ border:0;
+}
+
+a{
+ text-decoration:none;
+ color: #565656;
+}
+
+a.mailto{
+ color: white;
+}
+
+#header
+{	
+ height:220px;
+ max-width:980px;
+ margin: 0 auto;
+ height: auto;
+ background-color: #fff;
+ overflow: hidden;
+}
+
+#header .img_banner_aux{
+ display: none;
+}
+
+#menu {	
+ margin: 0 auto;
+ max-width:980px;
+ height:40px;
+ background-color: white;
+ padding: 0px 0px 10px 0px;
+}
+
+#menu ul.ul_primero {
+ margin: 0 auto 0 auto;
+ font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+ font-size: 16px;
+ color: #5a5a5a;
+
+ font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+ font-size:16px;
+ color:#5a5a5a;
+ height:40px;
+ line-height: 40px;
+ padding-left:0px;
+ padding-top:0px;
+}
+
+#menu ul.ul_primero li {
+ list-style-type: none;
+ float: left;
+ z-index:999;
+
+ margin-left:30px;
+}
+
+#menu ul.ul_primero li a#menu_encabezado_ultimo{
+ border-right: 0px
+}
+
+#menu ul.ul_primero li a {
+ display: block;
+ text-decoration: none;
+}
+#menu ul.ul_primero li a:hover {
+ color: #00a19b;
+}
+
+#menu ul.ul_primero li a.actual {
+ color: #00a19b;
+ font-weight: bold;
+}
+
+#contenido_total
+{
+ max-width: 980px;
+ overflow:hidden;
+ margin: 0 auto;	
+}
+
+#footer
+{
+ max-width: 980px;
+ min-height:35px;
+ overflow:hidden;	
+ margin: auto;
+ height: auto;
+ background: #005F71;
+ margin-top:20px;
+}
+
+.texto-footer
+{
+ font-family: Verdana, Geneva, sans-serif;
+ font-size:11px;
+ color:#FFF;
+ margin-left: 2%;
+ margin-top:5px;
+ margin-bottom: 5px;
+ width: 50%;
+ float:left;			
+
+}
+
+.color_abc{
+ color: #00a19b;
+}
+
+.titulo
+{	
+ font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+ font-size: 18px;
+ color: #00a19b;
+ padding-top:20px;
+}
+
+.titulo-secundario
+{	
+ font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+ font-size: 15px;
+ color: #005f71;
+ padding-top:10px;
+}
+
+.resaltar{
+ color:#005f71;
+}
+
+@media (max-width: 520px) {
+
+ #header img{
+  width: 100%;
+ }
+
+ #header .img_banner_aux{
+  display: block;
+ }
+
+ #header .img_banner{
+  display: none;
+ }
+}

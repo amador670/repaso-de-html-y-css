@@ -1,0 +1,17 @@
+/*Demo Styles  */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0; 
+}
+
+body {
+  -webkit-align-items: center;
+  align-items: center;
+  background-color: #eee;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center; 
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>  </title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+		<link rel="stylesheet" href="estilos.css">
+		<link rel="stylesheet" href="adipoli.css">
+
+	</head>    
+	<body>
+		
+		<h2 style="color:#0080ff">Mas informacion en <a href="http://www.designyourway.net/drb/adipoli-jquery-image-hover-plugin/">Design your way (no official)</a></h2>
+
+		<div class="contenedor">			
+			<img class="1" src="img/img%20(1).jpg" s alt="">
+			<img class="2" src="img/img%20(2).jpg" alt="">
+			<img class="3" src="img/img%20(3).jpg" alt="">
+			<img class="4" src="img/img%20(4).jpg" alt="">
+			<img class="5" src="img/img%20(5).jpg" alt="">			
+			<img class="6" src="img/img%20(6).jpg" alt="">			
+			<img class="7" src="img/img%20(7).png" alt="">			
+			<img class="8" src="img/img%20(8).jpg" alt="">			
+			<img class="9" src="img/img%20(9).jpg" alt="">			
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="jquery.adipoli.js"></script>
+
+		<script>
+			$('.1').adipoli({
+				'startEffect' : 'transparent',
+				'hoverEffect' : 'normal'
+			});
+			
+			$('.2').adipoli({
+				'startEffect' : 'normal',
+				'hoverEffect' : 'normal'
+			});
+			$('.3').adipoli({
+				'startEffect' : 'overlay',
+				'hoverEffect' : 'normal'
+			});
+			$('.4').adipoli({
+				'startEffect' : 'grayscale',
+				'hoverEffect' : 'normal'
+			});
+			$('.5').adipoli({
+				'startEffect' : 'transparent',
+				'hoverEffect' : 'sliceDown'
+			});
+			$('.6').adipoli({
+				'startEffect' : 'normal',
+				'hoverEffect' : 'sliceUpRandom'
+			});
+			$('.7').adipoli({
+				'startEffect' : 'transparent',
+				'hoverEffect' : 'fold'
+			});
+			$('.8').adipoli({
+				'startEffect' : 'overlay',
+				'hoverEffect' : 'boxRandom'
+			});
+			$('.9').adipoli({
+				'startEffect' : 'grayscale',
+				'hoverEffect' : 'boxRainGrow'
+			});
+		</script>
+	</body>
+</html>

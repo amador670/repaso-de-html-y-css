@@ -1,0 +1,49 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body { 
+  font-family: comic sans ms;
+  text-align: left;
+  font-size: 20px;
+  margin: 50px;
+  background-image: url(img1.jpg);
+  background-size: cover;
+}
+
+#container {
+  padding: 15px;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, .5);
+  color: white;
+  border: inset 3px white;
+}
+
+.horizontal{
+  display: flex;  
+  justify-content: center;
+}
+
+.vertical{
+  display: flex;
+  justify-content: center;
+  /*Esta propiedad solo la puse para el cuadro de la imagen*/
+  border: solid 3px white;
+}
+
+#container img {
+  width: 50%;
+  max-width: 650px;
+  height: auto;
+  margin: 0px;
+  display: inline-block;
+  opacity:0.8;
+}
+
+p{
+  margin: 15px 0px;
+}
